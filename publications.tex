@@ -1,0 +1,21 @@
+%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own
+\makerubrichead{Publications}
+\rightline{* denotes undergraduate advisee co-authors}
+%% Assuming you've already given \addbibresource{own-bib.bib} in the main doc. Right? Right???
+\vspace{-1.12cm}
+\nocite{*}
+
+%% If you just want everything in one list
+% \printbibliography[heading={none}]
+
+% \printbibliography[heading={subbibliography},title={Papers under review},keyword=in_review]
+
+\printbibliography[heading={subbibliography},title={Peer-reviewed papers},keyword=paper]
+
+\printbibliography[heading={subbibliography},title={Peer-reviewed extended abstracts},keyword=extended_abstract]
+
+\printbibliography[heading={subbibliography},title={Book chapters},filter={booksandchapters}]
+
+\printbibliography[heading={subbibliography},title={Preprints and blog posts},keyword=unpublished]
+
+% \printbibliography[heading=subbibliography]

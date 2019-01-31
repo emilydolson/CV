@@ -33,11 +33,11 @@
 \fi
 \usepackage{csquotes}
 
+\newif\ifshort
+\shorttrue
+
 %% Only needed if you want a Publication List
 \addbibresource{own-bib.bib}
-
-\newif\ifshort
-\shortfalse
 
 %% Specify your last name and first name (as given in the .bib) to automatically bold your own name in the publications list. One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly for now...
 \myname{Dolson}{Emily}
@@ -94,9 +94,9 @@
 \input{publications}
 \prefixmarker{\relscale{.9}\faTag}
 \vspace{-0.25cm}
-\makerubric{grants}
-\prefixmarker{\relscale{.9}\faComment}
-\vspace{-0.25cm}
+%\makerubric{grants}
+%\prefixmarker{\relscale{.9}\faComment}
+%\vspace{-0.25cm}
 \makerubric{talks}
 \prefixmarker{\relscale{.9}\faCertificate}
 \vspace{-0.25cm}
@@ -104,8 +104,8 @@
 \prefixmarker{\relscale{.9}\faStar}
 \vspace{-0.25cm}
 \makerubric{synergy}
-\vspace{-0.25cm}
-\makerubric{mentees}
+%\vspace{-0.25cm}
+%\makerubric{mentees}
 % \makerubric{skills}
 % \makerubric{misc}
 

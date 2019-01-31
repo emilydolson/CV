@@ -10,12 +10,33 @@
 
 % \printbibliography[heading={subbibliography},title={Papers under review},keyword=in_review]
 
-\printbibliography[heading={subbibliography},title={Peer-reviewed papers},keyword=paper]
+\printbibliography[heading={subbibliography},title={In review},keyword=submitted]
+
+\printbibliography[heading={subbibliography},title={Journal papers},keyword=journal]
+
+\printbibliography[heading={subbibliography},title={Peer-reviewed conference papers},keyword=conference]
+
+\ifshort
+\else
+
+\printbibliography[heading={subbibliography},title={Workshop papers},keyword=workshop]
+
+\fi
+
+%\printbibliography[heading={subbibliography},title={Peer-reviewed papers},keyword=paper]
+
+\ifshort
+\else
 
 \printbibliography[heading={subbibliography},title={Peer-reviewed extended abstracts},keyword=extended_abstract]
 
+\fi
+
 \printbibliography[heading={subbibliography},title={Book chapters},filter={booksandchapters}]
 
-\printbibliography[heading={subbibliography},title={Preprints and blog posts},keyword=unpublished]
+\ifshort
+\else
 
+\printbibliography[heading={subbibliography},title={Preprints and blog posts},keyword=unpublished]
+\fi
 % \printbibliography[heading=subbibliography]

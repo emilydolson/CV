@@ -34,7 +34,7 @@
 \definecolor{MarkerColour}{HTML}{150578}
 
 % If you're not a researcher nor an academic, you probably don't need biblatex; delete this line.
-\RequirePackage[backend=biber,bibstyle=apa, uniquename=false, apamaxprtauth=8, maxnames=7, minnames=7, sorting=ydnt,defernumbers=true]{biblatex}
+\RequirePackage[backend=biber,bibstyle=apa, uniquename=false, apamaxprtauth=9, maxnames=7, minnames=7, sorting=ydnt,defernumbers=true]{biblatex}
 \DeclareLanguageMapping{british}{british-apa}
 
 \RequirePackage{tikz}
@@ -94,7 +94,7 @@
 \defbibheading{subbibliography}{\vskip\subrubricbeforespace{\@subrubricfont\hspace{3pt}#1}\par}
 
 \defbibfilter{booksandchapters}{%
-( type=book or type=incollection )
+( type=book or type=incollection or type=inbook )
 }
 
 \defbibfilter{unpublished}{%

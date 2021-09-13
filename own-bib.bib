@@ -1,13 +1,18 @@
 
-@article{dolson_interpreting_2018,
-	title = {Interpreting the tape of life: {Ancestry}-based analyses provide insights and intuition about evolutionary dynamics},
-	language = {en},
-	author = {Dolson, Emily and Lalejini, Alexander and *Jorgensen, Steven and Ofria, Charles},
-	year = {In press},
-	journal = {Artificial Life},
-	publisher = {MIT Press},
-	keywords = {journal, paper}
+@article{dolson_interpreting_2020,
+author = {Dolson, Emily and Lalejini, Alexander and *Jorgensen, Steven and Ofria, Charles},
+title = {Interpreting the Tape of Life: Ancestry-Based Analyses Provide Insights and Intuition about Evolutionary Dynamics},
+journal = {Artificial Life},
+volume = {26},
+number = {1},
+pages = {58-79},
+year = {2020},
+doi = {10.1162/artl\_a\_00313},
+abstract = { Fine-scale evolutionary dynamics can be challenging to tease out when focused on the broad brush strokes of whole populations over long time spans. We propose a suite of diagnostic analysis techniques that operate on lineages and phylogenies in digital evolution experiments, with the aim of improving our capacity to quantitatively explore the nuances of evolutionary histories in digital evolution experiments. We present three types of lineage measurements: lineage length, mutation accumulation, and phenotypic volatility. Additionally, we suggest the adoption of four phylogeny measurements from biology: phylogenetic richness, phylogenetic divergence, phylogenetic regularity, and depth of the most-recent common ancestor. In addition to quantitative metrics, we also discuss several existing data visualizations that are useful for understanding lineages and phylogenies: state sequence visualizations, fitness landscape overlays, phylogenetic trees, and Muller plots. We examine the behavior of these metrics (with the aid of data visualizations) in two well-studied computational contexts: (1) a set of two-dimensional, real-valued optimization problems under a range of mutation rates and selection strengths, and (2) a set of qualitatively different environments in the Avida digital evolution platform. These results confirm our intuition about how these metrics respond to various evolutionary conditions and indicate their broad value. },
+publisher = {MIT Press},
+keywords = {journal, paper}
 }
+
 
 @article{wiser_boundedness_2018,
 	title = {The {Boundedness} {Illusion}: {Asymptotic} projections from early evolution underestimate evolutionary potential},
@@ -49,7 +54,7 @@
 	title = {Ecological {Theory} {Provides} {Insights} about {Evolutionary} {Computation}},
 	language = {en},
 	author = {Dolson, Emily, and Banzhaf, Wolfgang, and Ofria, Charles},
-    year = {In review at \textit{IEEE Transactions on Evolutionary Computation}},
+    year = {In review},
     keywords = {paper, submitted},
     doi = {10.7287/peerj.preprints.27315v1}
 }
@@ -62,7 +67,7 @@
 	booktitle = {{GECCO} ’19 {Companion}: {Genetic} and {Evolutionary} {Computation} {Conference} {Companion}},
 	publisher = {ACM},
 	author = {Hernandez, Jose, and Lalejini, Alexander, and Dolson, Emily and Ofria, Charles},
-	year = {In press},
+	year = {2019},
     keywords = {paper, workshop}
 }
 
@@ -118,29 +123,71 @@
     keywords = {paper, journal}
 }
 
-@incollection{dolson_applying_2018,
-	title = {Applying ecological principles to genetic programming},
-	booktitle = {Genetic {Programming} in {Theory} and {Practice} {XV}},
-	publisher = {Springer},
-	author = {Dolson, Emily and Banzhaf, Wolfgang and Ofria, Charles},
-	year = {2018}
+
+@Inbook{dolson_applying_2018,
+author="Dolson, Emily
+and Banzhaf, Wolfgang
+and Ofria, Charles",
+editor="Banzhaf, Wolfgang
+and Olson, Randal S.
+and Tozier, William
+and Riolo, Rick",
+title="Applying Ecological Principles to Genetic Programming",
+booktitle="Genetic Programming Theory and Practice XV",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="73--88",
+abstract="In natural ecologies, niches are created, altered, or destroyed, driving populations to continually change and produce novel features. Here, we explore an approach to guiding evolution via the power of niches: ecologically-mediated hints. The original exploration of ecologically-mediated hints occurred in Eco-EA, an algorithm in which an experimenter provides a primary fitness function for a tough problem that they are trying to solve, as well as ``hints'' that are associated with limited resources. We hypothesize that other evolutionary algorithms that create niches, such as lexicase selection, can be provided hints in a similar way. Here, we use a toy problem to investigate the expected benefits of using this approach to solve more challenging problems. Of course, since humans are notoriously bad at choosing fitness functions, user-provided advice may be misleading. Thus, we also explore the impact of misleading hints. As expected, we find that informative hints facilitate solving the problem. However, the mechanism of niche-creation (Eco-EA vs. lexicase selection) dramatically impacts the algorithm's robustness to misleading hints.",
+isbn="978-3-319-90512-9"
 }
 
-@incollection{dolson_exploring_2019,
-	title = {Exploring Genetic Programming Representations with {MAP}-{Elites}},
-	booktitle = {Genetic {Programming} in {Theory} and {Practice} {XVI}},
-	publisher = {Springer},
-	author = {Dolson, Emily and Lalejini, Alex and Ofria, Charles},
-	year = {2019}
+
+@Inbook{dolson_exploring_2019,
+author="Dolson, Emily
+and Lalejini, Alexander
+and Ofria, Charles",
+editor="Banzhaf, Wolfgang
+and Spector, Lee
+and Sheneman, Leigh",
+title="Exploring Genetic Programming Systems with MAP-Elites",
+bookTitle="Genetic Programming Theory and Practice XVI",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1--16",
+abstract="MAP-Elites is an evolutionary computation technique that has proven valuable for exploring and illuminating the genotype-phenotype space of a computational problem. In MAP-Elites, a population is structured based on phenotypic traits of prospective solutions; each cell represents a distinct combination of traits and maintains only the most fit organism found with those traits. The resulting map of trait combinations allows the user to develop a better understanding of how each trait relates to fitness and how traits interact. While MAP-Elites has not been demonstrated to be competitive for identifying the optimal Pareto front, the insights it provides do allow users to better understand the underlying problem. In particular, MAP-Elites has provided insight into the underlying structure of problem representations, such as the value of connection cost or modularity to evolving neural networks. Here, we extend the use of MAP-Elites to examine genetic programming representations, using aspects of program architecture as traits to explore. We demonstrate that MAP-Elites can generate programs with a much wider range of architectures than other evolutionary algorithms do (even those that are highly successful at maintaining diversity), which is not surprising as this is the purpose of MAP-Elites. Ultimately, we propose that MAP-Elites is a useful tool for understanding why genetic programming representations succeed or fail and we suggest that it should be used to choose selection techniques and tune parameters.",
+isbn="978-3-030-04735-1",
+doi="10.1007/978-3-030-04735-1_1",
+url="https://doi.org/10.1007/978-3-030-04735-1_1"
 }
 
-@incollection{ferguson_characterizing_2020,
-	title = {Characterizing the Effects of Random Subsampling and Dilution on Lexicase Selection},
-	booktitle = {Genetic {Programming} in {Theory} and {Practice} {XVII}},
-	publisher = {Springer},
-	author = {Ferguson, Austin and Hernandez, Jose, and Lalejini, Alexander, and Dolson, Emily and Ofria, Charles},
-	year = {In review}
+
+@Inbook{ferguson_characterizing_2020,
+author="Ferguson, Austin J.
+and Hernandez, Jose Guadalupe
+and Junghans, Daniel
+and Lalejini, Alexander
+and Dolson, Emily
+and Ofria, Charles",
+editor="Banzhaf, Wolfgang
+and Goodman, Erik
+and Sheneman, Leigh
+and Trujillo, Leonardo
+and Worzel, Bill",
+title="Characterizing the Effects of Random Subsampling on Lexicase Selection",
+bookTitle="Genetic Programming Theory and Practice XVII",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1--23",
+abstract="Lexicase selection is a proven parent-selection algorithm designed for genetic programming problems, especially for uncompromising test-based problems where many distinct test cases must all be passed. Previous work has shown that random subsampling techniques can improve lexicase selection's problem-solving success; here, we investigate why. We test two types of random subsampling lexicase variants: down-sampled lexicase, which uses a random subset of all training cases each generation; and cohort lexicase, which collects candidate solutions and training cases into small groups for testing, reshuffling those groups each generation. We show that both of these subsampling lexicase variants improve problem-solving success by facilitating deeper evolutionary searches; that is, they allow populations to evolve for more generations (relative to standard lexicase) given a fixed number of test-case evaluations. We also demonstrate that the subsampled variants require less computational effort to find solutions, even though subsampling hinders lexicase's ability to preserve specialists. Contrary to our expectations, we did not find any evidence of systematic loss of phenotypic diversity maintenance due to subsampling, though we did find evidence that cohort lexicase is significantly better at preserving phylogenetic diversity than down-sampled lexicase.",
+isbn="978-3-030-39958-0",
+doi="10.1007/978-3-030-39958-0_1",
+url="https://doi.org/10.1007/978-3-030-39958-0_1"
 }
+
+
 
 @inproceedings{dolson_spatial_2017-1,
 	address = {Lyon, France},
@@ -238,7 +285,78 @@
 	booktitle = {Artificial {Life} {2019}: The 2019 {International} {Conference} on {Artificial} {Life}},
 	publisher = {MIT Press},
 	author = {Lalejini, Alexander, and Dolson, Emily and Bohm, Clifford and Ferguson, Austin and Parsons, David, and Faulkner Rainford, Penelope, and Richmond, Paul and Ofria, Charles A.},
-	year = {In press},
-	pages = {434--440},
+    number = {31},
+    pages = {507-514},
+    year = {2019},
+    doi = {10.1162/isal\_a\_00213},
     keywords = {paper, conference}
+}
+
+@article{dolson_introduction_2020,
+author = {Dolson, Emily and Iram, Shamreen and Chiel, Joshua and Pelesko, Julia and Krishnan, Nikhil and Güngör, Özenç and Kuznets-Speck, Benjamin and Deffner, Sebastian and Ilker, Efe and Scott, Jacob G. and Hinczewski, Michael},
+title = {An introduction to using counterdiabatic driving to eliminate genetic lag in changing environments},
+journal = {Artificial Life Conference Proceedings},
+number = {32},
+pages = {25-26},
+year = {2020},
+doi = {10.1162/isal\_a\_00344},
+   keywords = {extended_abstract}
+}
+
+
+
+@article{weaver_UVDecontaminationPersonal_2021,
+	title = {{UV} decontamination of personal protective equipment with idle laboratory biosafety cabinets during the {COVID}-19 pandemic},
+	volume = {16},
+	issn = {1932-6203},
+	url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241734},
+	doi = {10/gmhk73},
+	abstract = {Personal protective equipment (PPE) is crucially important to the safety of both patients and medical personnel, particularly in the event of an infectious pandemic. As the incidence of Coronavirus Disease 2019 (COVID-19) increases exponentially in the United States and many parts of the world, healthcare provider demand for these necessities is currently outpacing supply. In the midst of the current pandemic, there has been a concerted effort to identify viable ways to conserve PPE, including decontamination after use. In this study, we outline a procedure by which PPE may be decontaminated using ultraviolet (UV) radiation in biosafety cabinets (BSCs), a common element of many academic, public health, and hospital laboratories. According to the literature, effective decontamination of N95 respirator masks or surgical masks requires UV-C doses of greater than 1 Jcm−2, which was achieved after 4.3 hours per side when placing the N95 at the bottom of the BSCs tested in this study. We then demonstrated complete inactivation of the human coronavirus NL63 on N95 mask material after 15 minutes of UV-C exposure at 61 cm (232 μWcm−2). Our results provide support to healthcare organizations looking for methods to extend their reserves of PPE.},
+	language = {en},
+	number = {7},
+	urldate = {2021-08-17},
+	journal = {PLOS ONE},
+	author = {Weaver, Davis T. and McElvany, Benjamin D. and Gopalakrishnan, Vishhvaan and Card, Kyle J. and Crozier, Dena and Dhawan, Andrew and Dinh, Mina N. and Dolson, Emily and Farrokhian, Nathan and Hitomi, Masahiro and Ho, Emily and Jagdish, Tanush and King, Eshan S. and Cadnum, Jennifer L. and Donskey, Curtis J. and Krishnan, Nikhil and Kuzmin, Gleb and Li, Ju and Maltas, Jeff and Mo, Jinhan and Pelesko, Julia and Scarborough, Jessica A. and Sedor, Geoff and Tian, Enze and An, Gary C. and Diehl, Sean A. and Scott, Jacob G.},
+	year = {2021},
+	keywords = {COVID 19, Decontamination, Pandemics, Respirators, Respiratory infections, Safety equipment, Ultraviolet C, Ultraviolet radiation},
+	pages = {e0241734},
+  keywords = {paper, journal}
+}
+
+
+
+@article{iram_ControllingSpeedTrajectory_2021,
+	title = {Controlling the speed and trajectory of evolution with counterdiabatic driving},
+	volume = {17},
+	copyright = {2020 The Author(s), under exclusive licence to Springer Nature Limited},
+	issn = {1745-2481},
+	url = {https://www.nature.com/articles/s41567-020-0989-3},
+	doi = {10.1038/s41567-020-0989-3},
+	abstract = {The pace and unpredictability of evolution are critically relevant in a variety of modern challenges, such as combating drug resistance in pathogens and cancer, understanding how species respond to environmental perturbations like climate change and developing artificial selection approaches for agriculture. Great progress has been made in quantitative modelling of evolution using fitness landscapes, allowing a degree of prediction for future evolutionary histories. Yet fine-grained control of the speed and distributions of these trajectories remains elusive. We propose an approach to achieve this using ideas originally developed in a completely different context—counterdiabatic driving to control the behaviour of quantum states for applications like quantum computing and manipulating ultracold atoms. Implementing these ideas for the first time in a biological context, we show how a set of external control parameters (that is, varying drug concentrations and types, temperature and nutrients) can guide the probability distribution of genotypes in a population along a specified path and time interval. This level of control, allowing empirical optimization of evolutionary speed and trajectories, has myriad potential applications, from enhancing adaptive therapies for diseases to the development of thermotolerant crops in preparation for climate change, to accelerating bioengineering methods built on evolutionary models, like directed evolution of biomolecules.},
+	language = {en},
+	number = {1},
+	urldate = {2021-02-15},
+	journal = {Nature Physics},
+	author = {Iram, Shamreen and Dolson, Emily and Chiel, Joshua and Pelesko, Julia and Krishnan, Nikhil and Güngör, Özenç and Kuznets-Speck, Benjamin and Deffner, Sebastian and Ilker, Efe and Scott, Jacob G. and Hinczewski, Michael},
+	year = {2021},
+	pages = {135--142},
+  keywords = {paper, journal}
+}
+
+@article{kayani2020uv,
+  title={{UV-C} Tower for point-of-care decontamination of filtering facepiece respirators},
+  author={Kayani, Badar J and Weaver, Davis T and Gopalakrishnan, Vishvaan and King, Eshan S and Dolson, Emily and Krishnan, Nikhil and Pelesko, Julia and Scott, Michael J and Hitomi, Masahiro and Cadnum, Jennifer L and Li, Daniel F. and Donskey, Curtis J. and Scott, Jacob G. and Charnas, Ian},
+  journal={American journal of infection control},
+  year={2020},
+  publisher={Elsevier},
+  keywords = {paper, journal}
+}
+
+
+@article{dolson_DigitalEvolutionEcology_2021,
+	title = {Digital evolution for ecology research: a review },
+	journal = {Frontiers in Ecology and Evolution},
+	author = {Dolson, Emily and Ofria, Charles},
+	year = {In review},
+	keywords = {paper, submitted}
 }
